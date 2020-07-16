@@ -298,8 +298,8 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 1px;
+  	background: white;
+  	height: 20px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -321,7 +321,7 @@ ul#nav li.current a { color: #F06000; }
   	background: #313131;
    display: inline-block;
   	height: 22px;
-   line-height: 2px;
+   line-height: 5px;
    border-radius: 3px 0 0 3px;
 }
 /*
