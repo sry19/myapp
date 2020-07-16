@@ -299,7 +299,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 12px;
+  	height: 1px;
   	border-radius: 3px;
 }
 .bars li em {
