@@ -113,7 +113,7 @@
         "time": "02/2018 -- 03/2018",
         "details":["Applied and implemented an adapted random walk algorithm in MATLAB for vicinity prediction of a diseases-mRNA multiplex network and accuracy reached 90% in some diseases"," Established a de novo algorithm using weighted K nearest known neighbors and collaborative filtering for optimizing the incidence matrix of diseases-mRNA graph, which significantly increased the precision and recall of the algorithm"],
         "image":"rna",
-        "url":"#"
+        "url":"https://github.com/sry19"
       }
     ],
     "skills":[
