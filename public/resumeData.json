@@ -57,7 +57,7 @@
         "company":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "title":"Teaching Assistant for CS5800 Algorithms",
         "years":"05/2020 -- 08/2020",
-        "description":["Instructed 60 graduate students in algorithms by holding weekly office hours","Communicated with instructors and other TAs to sync on grading policy"]
+        "description":["Instructed 60 graduate students in algorithms by holding weekly office hours","Communicated with instructors and other TAs to synchronize grading policy"]
       }
     ],
     "projects": [
@@ -75,7 +75,9 @@
         "title":"Multiprocessing Movie Search Engine (C, Linux, Valgrind, Emacs)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "01/2020 -- 04/2020",
-        "details":["Built a file indexer and a file processor using Linked List and Hash Table, applied Google Tests and exposed high-level abstracted APIs"," Implemented a multi-threaded File Parser to increase the responsiveness "," Developed a query processor using socket programming and TCP/IP protocol suite that serves multiple clients concurrently and increases throughput"],
+        "details":["Built a file indexer and a file processor using Linked List and Hash Table, applied Google Tests and exposed high-level abstracted APIs",
+          "Boosted performance by 10% through implementing a multi-threaded file parser",
+          "Developed a query processor using socket programming with TCP/IP protocol suites that concurrently serves multiple clients and increases throughput"],
         "image":"movieengine",
         "url":"https://github.com/sry19/c5007_hw/tree/master/project"
       },
@@ -84,7 +86,10 @@
         "title":"Task Management Application (Java, JUnit)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "01/2020 -- 04/2020",
-        "details":["Designed a full-stack personalized task management application compatible with Windows and Mac OS using MVC framework to allow users to create and organize to-dos "," Implemented a general command line parser and a flexible filter via Builder and Factory design patterns"," Performed industry-level teamwork using Git, exchanged information via interfaces and scheduled meetings frequently to collaborate with each other"],
+        "details":["Designed a full-stack personalized task management application compatible with Windows and macOS using MVC framework allowing users to create and organize to-do lists",
+          "Implemented a general command line parser and a flexible filter via Builder and Factory design patterns",
+          "Improved code coverage to 97% with 83 tests",
+          "Led a team of 3 developers, performed industry-level teamwork using Git, exchanged information via interfaces and scheduled meetings frequently for multi-level collaboration"],
         "image":"taskmanage",
         "url":"https://github.com/sry19/java5004_teamprojects/tree/master/hw9"
       },
@@ -93,7 +98,10 @@
         "title":"Othello Game Design(Python)",
         "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
         "time": "10/2019 -- 12/2019",
-        "details":["Used Python to design disk, board and player classes and write tests using unit-test, improved user-friendliness by producing user interface with Processing and customizing board "," Established game controller to launch initial setup and automatically switch user control, feasibly placed and flipped disks to keep the game orderly"," Built artificial intelligence to play against users in order to make the game challenging"," Recorded the scores in real time, displayed the results and refreshed the leader board"],
+        "details":["Used Python to design disk, board and player classes and write tests using unit-test, improved user-friendliness by producing user interface with Processing and customizing board ",
+          "Established game controller to launch initial setup and automatically switch user control, placed and flipped disks to keep the game orderly",
+          "Built artificial intelligence in order to make the game more challenging when playing against opponents",
+          "Recorded the scores in real time, displayed the results and refreshed the leader board"],
         "image":"othello",
         "url":"https://github.com/sry19/python5001/tree/master/hw12"
       },
@@ -102,7 +110,10 @@
         "title":"Campgrounds Experience Sharing Website (JavaScript)",
         "location":"",
         "time": "01/2019 -- 03/2019",
-        "details":["Developed the website under Amazon Cloud9 and deployed on Heroku with integration of MongoDB Atlas"," Implemented RESTful server-side logic under Express.js, enabled users to signup, login, share and comment on campgrounds posts, and supported authentication service through routers"," Built front-end through Bootstrap and jQuery, with the functionality of action-triggered response"," Implemented data persistence layer with MongoDB"],
+        "details":["Developed the website under Amazon Cloud9 and deployed it on Heroku with integration of MongoDB Atlas",
+          "Implemented RESTful server-side logic under Express.js, enabled users to signup, login, share and comment on campgrounds posts, and supported authentication service through routers",
+          "Built front-end through Bootstrap and jQuery, with the functionality of action-triggered response",
+          "Implemented data persistence layer with MongoDB"],
         "image":"yelpcamp",
         "url":"https://frozen-chamber-52515.herokuapp.com/campgrounds"
       },
