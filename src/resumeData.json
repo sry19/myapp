@@ -42,15 +42,16 @@
         "graduated":"09/2019 -- 12/2021(expected)"
       },
       {
-        "school":"Drexel University, Philadelphia",
-        "degree": "NON-DEGREE/ Short-term Scholar",
-        "graduated": "02/2019 -- 05/2019"
-      },
-      {
         "school":"China Pharmaceutical University, China",
         "degree":"BS in Pharmaceutic Preparation",
         "graduated":"09/2015 -- 07/2019"
+      },
+      {
+        "school":"Drexel University, Philadelphia",
+        "degree": "NON-DEGREE/ Short-term Scholar",
+        "graduated": "02/2019 -- 05/2019"
       }
+      
     ],
     "work":[
       {
