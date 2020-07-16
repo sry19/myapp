@@ -12,24 +12,27 @@ class Portfolio extends Component {
 
   render() {
     let obj = { "movieengine":movieengine,"taskmanage":taskmanage,"othello":othello,"rna":rna, "yelpcamp":yelpcamp, "issuetracker": issuetracker};
+    let web = { "issuetracker": "https://tracker-ui-sry19.herokuapp.com/", "movieengine": "https://github.com/sry19/c5007_hw/tree/master/project", "taskmanage": "https://github.com/sry19/java5004_teamprojects/tree/master/hw9",
+  "othello": "https://github.com/sry19/python5001/tree/master/hw12","yelpcamp":"https://frozen-chamber-52515.herokuapp.com/campgrounds","rna":"https://github.com/sry19"}
 
     if(data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = projects.image;
+        var u = projects.url;
         console.log(projects.url);
         return <div key={projects.title} className="columns portfolio-item">
           
            <div className="item-wrap">
-            
-               <img alt={projects.title} src={obj[projectImage]} />
+           <a href={web[projectImage]}><img alt={projects.title} src={obj[projectImage]} /></a>
+               {/**<img alt={projects.title} src={obj[projectImage]} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
                      <p>{projects.category}</p>
                   </div>
                 </div>
-              <div className="link-icon"><a href={projects.url}><i className="fa fa-link"></i></a></div>
-            
+              <div className="link-icon"><a href={web[projectImage]}><i className="fa fa-link"></i></a></div>
+      */}
           </div>
           
         </div>
