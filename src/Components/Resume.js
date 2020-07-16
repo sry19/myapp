@@ -31,7 +31,7 @@ class Resume extends Component {
             return <li key={line1}>{line1}</li>
           })
         }
-        return <div key={project.title}><h3>{project.title}</h3>
+        return <div key={project.title}><a href={project.url}><h3>{project.title}</h3></a>
             <p className="info">{project.location}</p>
             <p className="info"><em className="date">{project.time}</em></p>
             <p>{lines1}</p>
