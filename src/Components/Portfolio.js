@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import data from '../resumeData.json';
 const movieengine = require("../images/portfolio/movieengine.png");
 const taskmanage = require("../images/portfolio/taskmanage.png");
 const othello = require("../images/portfolio/othello.png");
@@ -6,18 +7,19 @@ const rna = require("../images/portfolio/rna.png");
 const yelpcamp = require("../images/portfolio/yelpcamp.png");
 const issuetracker = require("../images/portfolio/issuetracker.png");
 
+
 class Portfolio extends Component {
 
   render() {
     let obj = { "movieengine":movieengine,"taskmanage":taskmanage,"othello":othello,"rna":rna, "yelpcamp":yelpcamp, "issuetracker": issuetracker};
 
-    if(this.props.data){
+    if(data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = projects.image;
-        return <div href={projects.url} key={projects.title} className="columns portfolio-item">
+        return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img href={projects.url} alt={projects.title} src={obj[projectImage]} />
+            <a href={projects.url}>
+               <img alt={projects.title} src={obj[projectImage]} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>

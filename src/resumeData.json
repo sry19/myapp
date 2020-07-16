@@ -95,7 +95,7 @@
         "time": "10/2019 -- 12/2019",
         "details":["Used Python to design disk, board and player classes and write tests using unit-test, improved user-friendliness by producing user interface with Processing and customizing board "," Established game controller to launch initial setup and automatically switch user control, feasibly placed and flipped disks to keep the game orderly"," Built artificial intelligence to play against users in order to make the game challenging"," Recorded the scores in real time, displayed the results and refreshed the leader board"],
         "image":"othello",
-        "url":"https://github.com/sry19/python5001/tree/master/hw12"
+        "url": "https://github.com/sry19/python5001/tree/master/hw12"
       },
       {
        
@@ -113,7 +113,7 @@
         "time": "02/2018 -- 03/2018",
         "details":["Applied and implemented an adapted random walk algorithm in MATLAB for vicinity prediction of a diseases-mRNA multiplex network and accuracy reached 90% in some diseases"," Established a de novo algorithm using weighted K nearest known neighbors and collaborative filtering for optimizing the incidence matrix of diseases-mRNA graph, which significantly increased the precision and recall of the algorithm"],
         "image":"rna",
-        "url":"#"
+        "url":"https://github.com/sry19"
       }
     ],
     "skills":[
