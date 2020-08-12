@@ -42,15 +42,16 @@
         "graduated":"09/2019 -- 12/2021(expected)"
       },
       {
+        "school":"China Pharmaceutical University, China",
+        "degree":"BS in Pharmaceutics",
+        "graduated":"09/2015 -- 07/2019"
+      },
+      {
         "school":"Drexel University, Philadelphia",
         "degree": "NON-DEGREE/ Short-term Scholar",
         "graduated": "02/2019 -- 05/2019"
-      },
-      {
-        "school":"China Pharmaceutical University, China",
-        "degree":"BS in Pharmaceutic Preparation",
-        "graduated":"09/2015 -- 07/2019"
       }
+      
     ],
     "work":[
       {
@@ -58,37 +59,51 @@
         "title":"Teaching Assistant for CS5800 Algorithms",
         "years":"05/2020 -- 08/2020",
         "description":["Instructed 60 graduate students in algorithms by holding weekly office hours","Communicated with instructors and other TAs to synchronize grading policy"]
+      },
+      {
+        "company":"Zhixing Internet of Things Technology Co., Ltd., China",
+        "title":"Data Analyst Intern",
+        "years":"08/2018 -- 09/2018",
+        "description":["Improved work efficiency by 30% through leveraging Python statistical packages (Pandas/NumPy/SciPy/Matplotlib) and SQL to do data cleaning, data analysis and data visualization on data collected from >100 charging stations","Used DBSCAN to design and optimize a model to distinguish different electric vehicle types based on >5000 charging curves and increase machine learning model accuracy from 60% to 80%","Worked cross-functionally with product and engineering to define key metrics and support decision making"]
       }
     ],
     "projects": [
       {
         
-        "title":"Issue Tracker Application (JavaScript)",
-        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "title":"Issue Tracker Application (JavaScript, React, GraphQL, Express, MongoDB)",
+        "location":"Full-stack Developer",
         "time": "05/2020 -- 07/2020",
-        "details":["Built and deployed a MERN stack application in the proxy mode to help users create, edit, filter and delete issues","Designed front-end with React and React-Bootstrap; Developed back-end with GraphQL, Express.js and MongoDB Atlas","Reduced latency by implementing Server-side Rendering for the initial page and applying Babel and Webpack","Increased web security in both authentication side and authorization side with JSON web token (JWT) method"],
+        "details":["Led the design and implementation of a full-stack application in the proxy mode to help users create, edit, filter and delete issues; Improved work efficiency of software engineers by 60% in issue tracking and management","Designed and implemented a set of GraphQL APIs with Node.js server and MongoDB database for the ease and efficiency of data query and mutation from frontend","Boosted load performance by 30% through implementing Server-side Rendering for the initial page and applying Babel and Webpack","Increased web security on authentication and authorization with JSON web token (JWT) method"],
         "image":"issuetracker",
         "url":"https://tracker-ui-sry19.herokuapp.com/"
       },
       {
         
         "title":"Multiprocessing Movie Search Engine (C, Linux, Valgrind, Emacs)",
-        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "location":"Backend Developer",
         "time": "01/2020 -- 04/2020",
-        "details":["Built a file indexer and a file processor using Linked List and Hash Table, applied Google Tests and exposed high-level abstracted APIs",
+        "details":["Designed a file crawler, a file indexer and a file processor to process >5 million movies in about 50 different files, applied Google Test and exposed high-level abstracted APIs",
           "Boosted performance by 10% through implementing a multi-threaded file parser",
           "Developed a query processor using socket programming with TCP/IP protocol suites that concurrently serves multiple clients and increases throughput"],
         "image":"movieengine",
         "url":"https://github.com/sry19/c5007_hw/tree/master/project"
       },
       {
+        "title":"User Management Microservices (Java, Spring Boot, RESTful, Spring Cloud, MySQL)",
+        "location":"Backend Developer",
+        "time": "05/2020 -- 07/2020",
+        "details":["Designed and implemented RESTful Microservices with Spring Boot and Spring Cloud with integration of MySQL; Dockerized microservices on AWS EC2","Implemented user authentication and authorization with Spring Security and JWT","Used Spring Cloud Bus and RabbitMQ to broadcast configuration changes with encryption supported by JCE","Traced HTTP requests with Spring Cloud Sleuth and Zipkin; Improved efficiency by 20% by aggregating log files in one place with ELK stack (Logstash, Elasticsearch, Kibana)"],
+        "image":"microservices",
+        "url":"https://github.com/sry19/PhotoApp"
+      },
+      {
         
-        "title":"Task Management Application (Java, JUnit)",
-        "location":"Northeastern University, Khoury College of Computer Sciences, Seattle, WA",
+        "title":"Task Management System (Java, JUnit)",
+        "location":"Group Leader/Backend Developer",
         "time": "01/2020 -- 04/2020",
         "details":["Designed a full-stack personalized task management application compatible with Windows and macOS using MVC framework allowing users to create and organize to-do lists",
           "Implemented a general command line parser and a flexible filter via Builder and Factory design patterns",
-          "Improved code coverage to 97% with 83 tests",
+          "Covered 98% by unit tests implemented in JUnit",
           "Led a team of 3 developers, performed industry-level teamwork using Git, exchanged information via interfaces and scheduled meetings frequently for multi-level collaboration"],
         "image":"taskmanage",
         "url":"https://github.com/sry19/java5004_teamprojects/tree/master/hw9"
@@ -119,7 +134,7 @@
       },
       {
         
-        "title":"Relationship Prediction between mRNA and Diseases",
+        "title":"Relationship Prediction between mRNA and Diseases (MATLAB)",
         "location":"",
         "time": "02/2018 -- 03/2018",
         "details":["Applied and implemented an adapted random walk algorithm in MATLAB for vicinity prediction of a diseases-mRNA multiplex network and accuracy reached 90% in some diseases"," Established a de novo algorithm using weighted K nearest known neighbors and collaborative filtering for optimizing the incidence matrix of diseases-mRNA graph, which significantly increased the precision and recall of the algorithm"],
@@ -133,11 +148,11 @@
         "level":"60%"
       },
       {
-        "name":"Frameworks/Libraries: Express, JUnit, React, jQuery, Bootstrap, React Bootstrap, Processing, MVC",
+        "name":"Frameworks/Libraries: Express, JUnit, React, Sprint Boot, jQuery, Bootstrap, React Bootstrap, Processing, MVC",
         "level":"50%"
       },
       {
-        "name":"Others: Heroku, Gradle, npm, Node.js, nvm, MongoDB, Webpack, Git, Ubuntu, Emacs, Valgrind, AWS Cloud9, ESLint",
+        "name":"Others: Heroku, Gradle, npm, Node.js, nvm, MongoDB, MySQL, Webpack, Git, Ubuntu, Emacs, Valgrind, AWS Cloud9, ESLint",
         "level":"90%"
       }
     ]
